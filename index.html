@@ -3,24 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="style.css">
         <title>Unit Converter</title>
     </head>
     <body>
         <main>
             <h1>Metric/Imperial Unit Conversion</h1>
-            <input id="input-num" type="number">20</input>
-            <button id="convert-btn">Convert</button>
+            <div class="input">
+                <input id="input-num" type="text" placeholder="1"></input>
+            </div>
+            <button id="convert-btn" onclick="convertUnits()">Convert</button>
         </main>
         <section>
-            <div id="length-output">
+            <div>
                 <h2>Length (Meter/Feet)</h2>
+                <p id="length-output"></p>
             </div>
-            <div id="volume-output">
+            <div>
                 <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume-output"></p>
             </div>
-            <div id="mass-output">
+            <div>
                 <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass-output"></p>
             </div>
         </section>
         <script src="index.js"></script>
