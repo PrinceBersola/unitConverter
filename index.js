@@ -14,7 +14,7 @@ lengthOutput.textContent = "";
 volumeOutput.textContent = "";
 massOutput.textContent = "";
 
-convertBtn.addEventListener("click", convertUnits())
+convertBtn.addEventListener("click", convertUnits);
 
 function convertUnits() {
     const inputValue = parseFloat(inputField.value);

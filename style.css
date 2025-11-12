@@ -64,3 +64,12 @@ button {
     border-radius: 5px;
     font-size: medium;
 }
+
+button:hover {
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #C0C0C0;
+}
